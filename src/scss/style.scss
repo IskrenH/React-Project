@@ -6,8 +6,8 @@
   background: #1d80ab;
   width: 200px;
   height: 50px;
-  margin: auto;
   border-radius: 5px;
+  color: #fff;
   input{
     position: absolute;
     opacity: 0;
@@ -15,23 +15,4 @@
     height: 100%;
     cursor: pointer;
   }
-}
-
-.output{
-  margin: 10px 0;
-  .entry{
-    display: flex;
-    gap: 10px;
-  }
-}
-
-.reset{
-  width: 70px;
-  height: 30px;
-  border: none;
-  border-radius: 5px;
-  background: #cb3837;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
 }
